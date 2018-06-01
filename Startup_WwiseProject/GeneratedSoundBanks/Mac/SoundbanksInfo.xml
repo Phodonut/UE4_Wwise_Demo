@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\rhark_000\Documents\Unreal Projects\Startup\Startup_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\rhark_000\Documents\Unreal Projects\Startup\Startup_WwiseProject\.cache\Mac\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\rhark_000\Documents\Unreal Projects\Startup\Startup_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\rhark_000\Documents\Unreal Projects\Startup\Startup_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3969640585" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\UE_SoundBank</ObjectPath>
+			<ShortName>UE_SoundBank</ShortName>
+			<Path>UE_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2115772865" Name="Play_SoundFX" ObjectPath="\Events\Default Work Unit\Play_SoundFX"/>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2115772865	Play_SoundFX			\Default Work Unit\Play_SoundFX	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	2087838439	param_Frequency			\Default Work Unit\param_Frequency	
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	403207529	test_laser	test_laser		\Actor-Mixer Hierarchy\Default Work Unit\SoundFX\test_laser	
+

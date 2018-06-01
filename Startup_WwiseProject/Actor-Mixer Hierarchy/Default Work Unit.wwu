@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{710D945F-B861-4167-A72F-F9BC5AA25B37}" SchemaVersion="85">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{710D945F-B861-4167-A72F-F9BC5AA25B37}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="SoundFX" ID="{B6D20F3B-0B02-45B0-820A-4B5950A90576}" ShortID="349855993">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{6570914D-9083-4CB5-B0C2-03D80E73F2D1}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{162F2EBC-22B5-4CAE-BE34-63D46C11E91A}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="test_laser" ID="{CE466755-6624-4962-A872-34552840419A}" ShortID="403207529" PluginName="test_laser" CompanyID="64" PluginID="3877">
+							<PropertyList>
+								<Property Name="base_frequency" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{5A92C5DA-B8F8-4BAD-AEC6-F59E72D88B57}" ShortID="909682155">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="param_Frequency" ID="{3E741714-1044-4313-88B1-BB5365F43E89}" WorkUnitID="{3FAF704B-EA8B-4ED0-82E7-4156B38A9510}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{C0CC536D-D489-4C65-8EFC-155988B0BF81}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="1"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>2000</XPos>
+														<YPos>2000</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>10000</XPos>
+														<YPos>10000</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="trigger" Type="Real32" Value="0.14"/>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="test_laser" ID="{CE466755-6624-4962-A872-34552840419A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

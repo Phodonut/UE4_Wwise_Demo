@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{3FAF704B-EA8B-4ED0-82E7-4156B38A9510}" SchemaVersion="85">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{3FAF704B-EA8B-4ED0-82E7-4156B38A9510}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="param_Frequency" ID="{3E741714-1044-4313-88B1-BB5365F43E89}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="3000"/>
+						<Property Name="Max" Type="Real64" Value="10000"/>
+						<Property Name="Min" Type="Real64" Value="2000"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

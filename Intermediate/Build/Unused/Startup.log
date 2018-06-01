@@ -1,0 +1,27 @@
+﻿  Creating makefile for StartupEditor (game project files are newer)
+  Parsing headers for StartupEditor
+    Running UnrealHeaderTool "C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Startup.uproject" "C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Intermediate\Build\Win64\StartupEditor\Development\StartupEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for StartupEditor in 9.2066641 seconds
+  Performing 14 actions (4 in parallel)
+  StartupGameModeBase.gen.cpp
+  Module.AkAudio.cpp
+  Module.AkAudio.gen.cpp
+  Module.AudiokineticTools.cpp
+  Module.AudiokineticTools.gen.cpp
+  Startup.init.gen.cpp
+  StartupGameModeBase.cpp
+  Startup.cpp
+  [9/14] Link UE4Editor-Startup.dll
+     Creating library C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Startup.suppressed.lib and object C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Startup.suppressed.exp
+  [10/14] Link UE4Editor-Startup.lib
+     Creating library C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Startup.lib and object C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Startup.exp
+  [11/14] Link UE4Editor-AudiokineticTools.lib
+     Creating library C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AudiokineticTools.lib and object C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AudiokineticTools.exp
+  [12/14] Link UE4Editor-AkAudio.lib
+  [13/14] Link UE4Editor-AkAudio.dll
+     Creating library C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AkAudio.lib and object C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AkAudio.exp
+  [14/14] Link UE4Editor-AudiokineticTools.dll
+     Creating library C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AudiokineticTools.suppressed.lib and object C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AudiokineticTools.suppressed.exp
+     Creating library C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AkAudio.suppressed.lib and object C:\Users\rhark_000\Desktop\UE4_Wwise_Startup\Plugins\Wwise\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-AkAudio.suppressed.exp
+  Deploying StartupEditor Win64 Development...
+  Total build time: 84.19 seconds (Local executor: 68.33 seconds)
